@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CDN jquery  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- CDN DO BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="script.js" defer></script>
+    <title>Modelo de Recursos</title>
+</head>
+
+<body>
+    <div class="m-5">
+        <h1>Modelo de Recursos</h1>
+
+        <h2>StoryTelling</h2>
+        <p>obs: para funcionar o storytelling precisa da cdn do Jquery</p>
+        <div class="storytelling wow fadeIn" data-wow-delay="0.3s">
+            <div class="timeline">
+                <input type="radio" checked class="profile" id="" name="bright">
+                <input type="radio" class="settings" id="" name="bright">
+                <input type="radio" class="posts" id="" name="bright">
+                <input type="radio" class="books" id="" name="bright">
+                <div class="topo">
+                    <ul class="nav">
+                        <li class="st st1">
+                            <h2 class="inner">Lingüística</h2>
+                        </li>
+                        <li class="st st2">
+                            <h2 class="inner">Matemática</h2>
+                        </li>
+                        <li class="st st3">
+                            <h2 class="inner">Espacial</h2>
+                        </li>
+                        <li class="st st4">
+                            <h2 class="inner">Musical</h2>
+                        </li>
+                    </ul>
+                    <div class="line">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="conteudo">
+                    <section class="profile-section" id="secao">
+                        <span></span>
+                        <h3>Inteligência Linguística</h3>
+                        <p>Relacionada à capacidade de trabalhar com as palavras, sendo atribuída
+                            especialmente aos poetas.</p>
+                    </section>
+                    <section class="Account-section" id="secao">
+                        <span></span>
+                        <h3>Inteligência Lógico-Matemática</h3>
+                        <p>Ligada à capacidade para a lógica e matemática, sendo tradicionalmente
+                            utilizada pelos testes de QI.</p>
+                    </section>
+                    <section class="Posts-section" id="secao">
+                        <span></span>
+                        <h3>Inteligência Espacial</h3>
+                        <p>Relacionada à capacidade de visualizar dimensões espaciais, sendo bastante
+                            utilizada por engenheiros, arquitetos, pilotos, etc.</p>
+                    </section>
+                    <section class="Advanced-section" id="secao">
+                        <span></span>
+                        <h3>Inteligência Musical</h3>
+                        <p>Trata-se da habilidade dos músicos e compositores.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <h2>caixa para falar sobre o autor</h2>
+
+        <div class="row destaque mb-4">
+            <!-- Titulo Figura -->
+            <div class="text-center col-md-6 img-01 wow animate__zoomIn mb-5">
+                <p class="TituloFigura FonteMenor text-secondary p-2 text-white"><strong>Figura de Howard
+                        Gardner</strong></p>
+                <div class="zoom">
+                    <a href="gardner" data-bs-toggle="modal" data-bs-target="#gardner">
+                        <img class="w-100" src="imgs/topico01/gardner.webp" alt="Imagem que remete a organização"
+                            id="img-1">
+                    </a>
+                </div>
+                <p class="FonteFigura FonteMenor text-secondary text-white"><strong>Fonte:</strong> <a target="blank"
+                        href="https://www.inteligenciadevida.com.br/pt/conteudo/quem-e-howard-gardner-especialistas-em-educacao/">Site
+                        Inteligencia de Vida</a></p>
+            </div>
+
+            <div class="col-md-6 d-flex align-items-center mb-5">
+                <div class="wow fadeInRight">
+                    <h4 class="mb-3 mt-3 text-center">Explorando Grandes Mentes</h4>
+                    <p class="" data-wow-delay="0.5s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+                        incidunt, obcaecati autem ipsam velit culpa impedit dolores facere distinctio tempora
+                        perferendis totam! Dignissimos temporibus, facere laboriosam neque vero accusamus omnis!</p>
+                </div>
+            </div>
+        </div>
+        <h2>texto de destaque</h2>
+        <p>normalmente usado do lado de uma img que não é do autor</p>
+        <div class="row">
+            <div class="col-md-6">
+                <p class="destaque">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, tenetur! Temporibus
+                    eveniet hic cupiditate delectus vero enim numquam non aperiam cum ipsam fuga rerum, unde repellat
+                    sint repellendus corrupti nobis.</p>
+            </div>
+            <div class="col-md-6">
+                <!-- aq vai uma img sem ser uma do autor -->
+            </div>
+        </div>
+        <!-- flip-card -->
+        <h2>Flip-Card</h2>
+        <div class="container wow animate__zoomIn">
+            <div class="cards">
+                <label id="summary">
+                    <input type="checkbox" />
+                    <article>
+                        <div class="front">
+                            <header>
+                                <h2>Clique para saber mais</h2>
+                                <span class="material-symbols-outlined"><i
+                                        class="fa-regular fa-hand-pointer"
+                                        style="color:white"></i></span>
+                            </header>
+
+                            <p class="text-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit non magni ut possimus ullam excepturi quod quae fugiat nobis voluptate. Officiis quisquam maiores sed ex. Praesentium laborum eos nam hic. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum temporibus illo nisi soluta esse quisquam vel doloremque accusantium recusandae aperiam. Numquam illum aspernatur voluptas facere cumque distinctio modi dignissimos quo. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, sunt. Rem corporis possimus hic facere delectus totam harum esse quae itaque! Earum omnis eos aliquam repudiandae. Vero molestias quae quaerat?</p>
+
+                        </div>
+                        <div class="back">
+                            <header>
+                                <h2>Clique para voltar</h2>
+
+                                <span class="material-symbols-outlined"><i
+                                        class="fa-regular fa-hand-pointer"
+                                        style="color:white"></i></span>
+                            </header>
+                            <div class="text-left">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore temporibus eos est? Ducimus ipsam, temporibus quos sint rem cum labore non illo minima? Id, deleniti incidunt? Ullam rerum autem accusantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, sapiente! Aut distinctio modi eveniet commodi ex! Rerum aliquid ipsam repellat fugiat ratione, labore porro beatae, sint vel recusandae ipsa nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, laboriosam magni? Facere quis consequatur dolor odio ducimus aliquid explicabo? Et fuga alias atque labore quisquam, delectus eligendi voluptates fugit velit!</p>
+                            </div>
+
+                        </div>
+                    </article>
+                </label>
+            </div>
+        </div>
+</body>
+
+</html>
